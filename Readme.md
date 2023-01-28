@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Арсений Седельников](https://up.htmlacademy.ru/htmlcss/36/user/2325475).
-* Наставник: `Александр Панасюк`.
+* Наставник: [Александр Панасюк](https://htmlacademy.ru/profile/sasha_oldsport).
 
 ---
 
