@@ -34,29 +34,27 @@
     <section>
      <h1>Гости седона</h1>
     </section>
-    <figure>
-      <form action="#" method="get">
-          <fieldset>
-          <legend>Инфрастуктура:</legend>
-          <label><input type="checkbox" name="infrastructure" checked value="pool">Бассейн</label>
-          <label><input type="checkbox" name="infrastructure" checked value="parking">Парковка</label>
-          <label><input type="checkbox" name="infrastructure" checked value="wifi">Wi-Fi</label>
-        </fieldset>
-        <fieldset>
-          <legend>Тип жилья:</legend>
-          <label><input id="hotel_radio" name="type_hotel_radio" type="radio" value="1">Гостиница</label>
-          <label><input id="motel_radio" name="type_motel_radio" type="radio" value="1">Мотель</label>
-          <label><input id="apartments_radio" name="type_apartments_radio" type="radio" value="1">Апартаменты</label>
-        </fieldset>
-        <fieldset>
-          <legend>Стоимость, <span>₽:</span></legend>
-          <label><input type="text" value="0">от</label>
-          <label><input type="text" value="9000">до</label>
-        </fieldset>
-        <button type="submit">Применить</button>
-        <button type="reset">Сбросить</button>
-      </form>
-    </figure>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Инфрастуктура:</legend>
+        <label><input type="checkbox" name="infrastructure" checked value="pool">Бассейн</label>
+        <label><input type="checkbox" name="infrastructure" checked value="parking">Парковка</label>
+        <label><input type="checkbox" name="infrastructure" checked value="wifi">Wi-Fi</label>
+      </fieldset>
+      <fieldset>
+        <legend>Тип жилья:</legend>
+        <label><input id="hotel_radio" name="type_radio" type="radio" value="0">Гостиница</label>
+        <label><input id="motel_radio" name="type_radio" type="radio" value="0">Мотель</label>
+        <label><input id="apartments_radio" name="type_radio" type="radio" value="0">Апартаменты</label>
+      </fieldset>
+      <fieldset>
+        <legend>Стоимость, <span>₽:</span></legend>
+        <label><input type="text" value="0">от</label>
+        <label><input type="text" value="9000">до</label>
+      </fieldset>
+      <button type="submit">Применить</button>
+      <button type="reset">Сбросить</button>
+    </form>
     <section>|
         <h2 class="header-block">Заинтересовались?</h2>
         <p class="description-block">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
